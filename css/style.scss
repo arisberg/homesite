@@ -1,35 +1,48 @@
 /*imports*/
 @import "normalize";
 @import "fluid_skeleton";
-@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700);
+@import url(http://fonts.googleapis.com/css?family=Cabin);
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
 
 html {
-    font: 100%/1.5em 'PT Sans', sans-serif;
+    font-family: 'Cabin';
 }
 
 h1, h2, h3 {
+    font-family:'Quicksand';
     text-align: center;
-    font: 'PT Serif';
 }
 
 img {
-    height:200px;
-    width: 300px;
+    max-height: 100%;
+    max-width: 100%;
 }
+
 
 .top {
     background: url('../images/mountains.jpg');
     height: 400px;
-    padding: 10% 0 15% 0;
+    padding: 5% 0 15% 0;
+    font-size: 2em;
 }
 
 .bio {
     height: 400px;
-    padding: 10% 0 15% 0;
+    padding: 15% 0 15% 0;
 }
 
 .showcase {
     background: grey;
     height: 700px;
-    padding: 10% 0 15% 0;
+    padding: 15% 0 15% 0;
+}
+
+.profile {
+    margin: 0 auto;
+    margin-bottom:20px;
+    background: url('../images/alexrisberg.jpg');
+    height:300px;
+    width:300px;
+    border: solid black 3px;
+    border-radius: 250px;
 }
