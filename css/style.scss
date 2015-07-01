@@ -1,0 +1,35 @@
+/*imports*/
+@import "normalize";
+@import "fluid_skeleton";
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700);
+
+html {
+    font: 100%/1.5em 'PT Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font: 'PT Serif';
+}
+
+img {
+    height:200px;
+    width: 300px;
+}
+
+.top {
+    background: url('../images/mountains.jpg');
+    height: 400px;
+    padding: 10% 0 15% 0;
+}
+
+.bio {
+    height: 400px;
+    padding: 10% 0 15% 0;
+}
+
+.showcase {
+    background: grey;
+    height: 700px;
+    padding: 10% 0 15% 0;
+}
