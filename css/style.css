@@ -577,6 +577,9 @@ or wrap each row of columns in a <div class="row"> */
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+body {
+  height: 1000px; }
+
 html {
   font-family: 'Cabin'; }
 
@@ -590,17 +593,17 @@ img {
 
 .top {
   background: url("../images/mountains.jpg");
-  height: 400px;
+  height: 25%;
   padding: 5% 0 15% 0;
   font-size: 2em; }
 
 .bio {
-  height: 400px;
+  height: 100%;
   padding: 15% 0 15% 0; }
 
 .showcase {
   background: grey;
-  height: 700px;
+  height: 52%;
   padding: 15% 0 15% 0; }
 
 .profile {
